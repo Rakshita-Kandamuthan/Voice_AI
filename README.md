@@ -71,7 +71,7 @@ To ensure optimal script performance and seamless dataset access, we recommend u
 - For smooth script execution, use Google Colab. It offers different configurations to optimize your script's performance. 
 - As the script interacts with datasets in Google Drive, 'mount' Google Drive in Colab. This allows the script to effortlessly read and handle specified datasets stored in your Drive. 
 - By using Google Colab and mounting Drive, you create an efficient environment for your script to work flawlessly with your datasets.
-# Replicating Our Marathi Speech-to-Text Model: 
+## Replicating Our Marathi Speech-to-Text Model: 
 A Step-by-Step Guide 
 
 Understanding the importance of transparency and reproducibility in our model's evaluation and in order to ensure that anyone can replicate our results seamlessly, I've crafted comprehensive guidelines. 
