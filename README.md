@@ -57,13 +57,13 @@ The implementation of the transcription model prioritizes clarity, organization,
 
 - This function oversees the evaluation process by comparing transcribed text against reference text for multiple audio files. It starts by organizing file names and reference transcriptions, ensuring all necessary data is gathered for evaluation. 
 - During the evaluation loop, it computes Word Error Rate (WER) and Character Error Rate (CER) for each transcription against its reference. I've utilized clear print statements to display relevant details, enhancing readability.
-## Code Structure and Clarity
+### 5. Code Structure and Clarity
 - The code follows a logical structure, facilitating a seamless understanding of the transcription and evaluation procedures. 
 - Each function has a distinct role, contributing to the overall organization. With strategically placed comments and print statements, the code is designed for clarity and ease of comprehension. 
 - It's optimized for efficiency, handling multiple audio files without compromising performance.
 
 This well-commented and organized code ensures that anyone exploring or maintaining this transcription model can effortlessly comprehend and build upon the work presented.
- ## Execution Environment and Dataset Access Requirements:
+## Execution Environment and Dataset Access Requirements:
 Setting Up Your Voice AI Environment
 
 To ensure optimal script performance and seamless dataset access, we recommend utilizing Google Colab's runtime configurations and mounting Google Drive
@@ -83,7 +83,7 @@ Here's how you can replicate our Marathi speech-to-text model's performance usin
 1. **Code Implementation**: Utilize our provided codebase, ensuring that you've structured your directories similarly to ours. You'll find two primary functions: get\_transcription() and evaluate\_transcriptions(). These functions are pivotal in transcribing Marathi speech and evaluating the model's performance against the reference transcriptions. 
 1. **Running the Code**: Execute the code on your machine, following the instructions and comments within the code for a clear understanding of each step. This will initiate the transcription process and evaluate the model's performance against the test dataset. 
 1. **Result Analysis and Comparison**: Once the code execution is complete, review the generated results. The output will include metrics such as Word Error Rate (WER) and Character Error Rate (CER), providing insight into the model's accuracy in transcribing Marathi speech.
-# Theory
+## Theory
 Unveiling insights through the art of transcription analysis.
 
 When the Word Error Rate (WER) is higher than the Character Error Rate (CER), it often means that the errors are happening more when the model tries to understand whole words instead of individual letters. It could be because: 
